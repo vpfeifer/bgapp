@@ -7,7 +7,7 @@ const os = require('os')
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'THE BACKGROUND COLOR WEB PAGE',
-    version: 'RED',
+    version: 'BLACK',
     hostname: os.hostname()
   });
 });
